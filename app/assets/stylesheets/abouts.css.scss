@@ -1,0 +1,44 @@
+// Place all the styles related to the Abouts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.jumbotron {
+  height: 500px;
+  height: 800px;
+  background: no-repeat center center fixed;
+  background-image: image_url("car.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.supporting_section h2, p{
+  text-align: center;
+
+}
+
+.supporting_section h2 {
+  padding-top: 70px;
+  font-size: 70px;
+}
+
+.supporting_section p {
+  font-size: 20px;
+  padding-bottom: 90px;
+}
+
+.supporting_section .btn {
+  color: #fff;
+  bottom: 60px;
+  background-color: #000;
+  padding: 15px 25px;
+  box-shadow:0 2px 4px rgba(0,0,0,.5);
+  right: 400px;
+}
