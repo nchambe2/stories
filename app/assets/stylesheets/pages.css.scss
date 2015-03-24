@@ -65,6 +65,24 @@
   background-size: cover;
 }
 
+.thanks_section {
+  height: 500px;
+  height: 800px;
+  background: no-repeat center center fixed;
+  background-image: image_url("firecracker.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+}
+
+.thanks_section h1{
+  color: #fff;
+  font-size: 500%;
+  text-align: center;
+  padding-top: 300px;
+}
 
 
 

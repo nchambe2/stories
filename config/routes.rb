@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get  '/about' => 'abouts#about'
   get  '/contact' => 'signups#new'
   post  '/contact/new' => 'signups#create'
+  get   '/thanks' => 'pages#thanks'
 
 
 end
