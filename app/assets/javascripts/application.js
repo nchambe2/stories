@@ -14,4 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+var main = function () {
+	$('img').on('click', function() {
+		$('.dropdown-menu').toggle();
+    });
+};
 
+$(document).ready(main);
