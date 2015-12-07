@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20150322231228) do
   create_table "signups", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string   "firstname"
+    t.string   "name"
     t.string   "email"
   end
 
